@@ -1,27 +1,118 @@
+.container {
+  max-width: 1300px;
+  margin: 40px auto;
+  font-family: "Cera Pro Regular";
+}
+
 .left-blok {
 float:left;
 background-color:#FBFBFB;
-width: 330px;
-margin: 40px 0px 20px 150px;
+max-width: 300px;
 }
+.left-blok h6 {
+  margin: 18px 0 0 14px;
+  font-family: "Cera Pro Bolt";
+  font-size: 18px;
+}
+.left-item {
+  margin: 20px 0 0px 25px;
+}
+.item-link {
+  color:#3D3D3D;
+  font-size: 15px;
+}
+.item-link:hover {
+  color: #46A358;
+  text-shadow: 1px 0 #46A358;
+}
+.left-menu  {
+  margin-bottom: 270px;
+}
+
 .right-blok {
   float:right;
-  max-width: 1000px;
-  margin: 40px 150px 20px 0px;
+  max-width: 900px;
+}
+.top-information {
+  margin-bottom: 50px;
 }
 .top-item {
   float: left;
 }
+.offer-link {
+ margin-right: 40px;
+ color:#3D3D3D;
+ font-size: 15px;
+}
+.offer-link:hover {
+  color: #46A358;
+  text-shadow: 1px 0 #46A358;
+  border-bottom: 2px solid #46A358;
+  padding-bottom: 2px; 
+}
 .chois {
   float: right;
+  margin-right: 52px;
+  color:#3D3D3D;
+  font-size: 15px;
 }
+.chois-list {
+  font-family: "Cera Pro Regular";
+  font-size: 15px;
+}
+/* .product-list {
+  background-color: antiquewhite;
+} */
 .product-item {
   display: inline-block;
+  margin-right: 45px;
+  margin-bottom: 70px;
+  /* background-color: aqua; */
 }
+.product-item:last-child {
+  margin-right: 0;
+}
+.product-img {
+  margin-bottom: 3px;
+}
+.product-title {
+  margin-bottom: 9px;
+  font-size: 16px;
+  color:#3D3D3D;
+}
+.product-space {
+  font-size: 18px;
+  color: #46A358;
+  font-weight: bold;
+}
+
 .clearfix{
   clear: both;
-  display: inline-block;
+  content: ""; 
+}
+
+.pagination-list {
+  float: right;
+  margin-right: 60px;
 }
 .pagination-item {
   float: left;
+  margin: 0 10px 10px 0;
+}
+.pagination-item:last-child {
+  margin-right: 0;
+}
+.product-page {
+  padding: 10px 12px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  font-size: 18px;
+  color:#3D3D3D;
+}
+.product-page:hover {
+  background-color: #46A358;
+  color: white;
+  font-weight: bold;
 }
