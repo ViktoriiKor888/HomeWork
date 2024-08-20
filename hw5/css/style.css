@@ -9,18 +9,14 @@
 
 .logo,.links,.item,.search,.basket,.but-img,.but-text{
   display: inline-block;
-  vertical-align:middle;
+  vertical-align:middle; 
 }
 
-a:link {
-  color:#3D3D3D;
-}
-
-li:hover {
-  /* position:fixed; */
+.item:hover {
   padding-bottom: 26px;
   border-bottom: 3px solid #46A358;
-  font-weight: bold;
+  /* font-weight: bold; */
+  text-shadow: 1px 0 #000000;
 }
 
 .links {
@@ -29,6 +25,8 @@ li:hover {
 
 .item {
   margin-right: 50px;
+  color:#3D3D3D;
+  display: inline; /*это чтобы нижний паддинг блока .top-menu не учитывался для элементов*/
 }
 
 .search,.basket {
@@ -43,4 +41,5 @@ li:hover {
   font-size: 16px;
   color: white;
   border-radius: 6px;
+  cursor: pointer;
 }

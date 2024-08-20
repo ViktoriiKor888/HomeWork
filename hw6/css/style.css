@@ -1,0 +1,27 @@
+.left-blok {
+float:left;
+background-color:#FBFBFB;
+width: 330px;
+margin: 40px 0px 20px 150px;
+}
+.right-blok {
+  float:right;
+  max-width: 1000px;
+  margin: 40px 150px 20px 0px;
+}
+.top-item {
+  float: left;
+}
+.chois {
+  float: right;
+}
+.product-item {
+  display: inline-block;
+}
+.clearfix{
+  clear: both;
+  display: inline-block;
+}
+.pagination-item {
+  float: left;
+}
