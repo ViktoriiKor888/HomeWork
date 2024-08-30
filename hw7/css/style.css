@@ -1,0 +1,111 @@
+.container {
+  max-width: 1300px;
+  margin: 40px auto;
+  font-family: "Cera Pro Regular";
+}
+.mainblock {
+   display: flex; 
+}
+.left-blok {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+background-color:#FBFBFB;
+max-width: 300px;
+}
+
+.cat-text {
+  margin: 18px 0 0 14px;
+  font-family: "Cera Pro Bolt";
+  font-size: 18px;
+}
+.left-item {
+  margin: 20px 0 0px 25px;
+}
+.item-link {
+  color:#3D3D3D;
+  font-size: 15px;
+}
+.item-link:hover {
+  color: #46A358;
+  text-shadow: 1px 0 #46A358;
+}
+
+.right-blok {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin-left: 50px;
+}
+.top-information {
+  margin-bottom: 31px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-item {
+  /* display: flex;   
+  justify-content: space-between; */
+}
+.offer-link {
+ margin-right: 40px;
+ color:#3D3D3D;
+ font-size: 15px;
+}
+.offer-link:hover {
+  color: #46A358;
+  text-shadow: 1px 0 #46A358;
+  border-bottom: 2px solid #46A358;
+  padding-bottom: 2px; 
+}
+.chois {
+  color:#3D3D3D;
+  font-size: 15px;
+}
+.chois-list {
+  font-family: "Cera Pro Regular";
+  font-size: 15px;
+}
+ .product-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 70px 33px;
+} 
+.product-img {
+  margin-bottom: 5px;
+}
+.product-title {
+  margin-bottom: 9px;
+  font-size: 16px;
+  color:#3D3D3D;
+}
+.product-space {
+  font-size: 18px;
+  color: #46A358;
+  font-weight: bold;
+}
+
+.pagination-list {
+  display: flex;
+  justify-content: end;
+  margin-top: 90px;
+}
+.pagination-item {
+  margin: 0 10px 10px 0;
+}
+.product-page {
+  padding: 10px 12px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  font-size: 18px;
+  color:#3D3D3D;
+}
+.product-page:hover {
+  background-color: #46A358;
+  color: white;
+  font-weight: bold;
+}
