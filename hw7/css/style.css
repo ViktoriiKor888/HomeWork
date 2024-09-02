@@ -123,14 +123,17 @@ max-width: 300px;
 
 .top-element {
   opacity: 0;
+  /* display: none; */
+  position: absolute;
   height: 1px;
   flex-basis: 100%;
   background-color: #46A358;
-  z-index: 1;
+  z-index: 5;
 }
 
 .product-item:hover .top-element {
   opacity: 1;
+  /* display:block; */
 }
 
 .img-block {
@@ -139,7 +142,6 @@ max-width: 300px;
   position: absolute;
   align-items: center;
   bottom: 60px;
-  /* opacity: 0; */
 }
 
 .img-link {

@@ -1,0 +1,46 @@
+.top-menu {
+  display: inline-block;
+  margin: 25px 120px 12px 120px;
+  padding-bottom: 18px;
+  border-bottom: 0.3px solid #46a35977;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.logo,.links,.item,.search,.basket,.but-img,.but-text{
+  display: inline-block;
+  vertical-align:middle; 
+}
+
+.item:hover {
+  padding-bottom: 26px;
+  border-bottom: 3px solid #46A358;
+  /* font-weight: bold; */
+  text-shadow: 1px 0 #000000;
+}
+
+.links {
+  margin: 0 210px 0 230px;
+}
+
+.item {
+  margin-right: 50px;
+  color:#3D3D3D;
+  display: inline; /*это чтобы нижний паддинг блока .top-menu не учитывался для элементов*/
+}
+
+.search,.basket {
+  margin-right: 30px;
+}
+
+.button-style {
+  width: 100px;
+  height: 35px;
+  background-color: #46A358;
+  font-family: Arial;
+  font-size: 16px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
